@@ -18,9 +18,9 @@ public class Main {
         System.out.println("device1 == monitor1 буде " + (device1 == monitor1));
         EthernetAdapter ethernetAdapter1 = new EthernetAdapter("hp",14f,"32342FF3",10,"10:22:43");
         EthernetAdapter ethernetAdapter2 = new EthernetAdapter("hp",14f,"32342FF3",10,"10:22:43");
-        System.out.println("ethernetAdapter1.equals(ethernetAdapter2) буде " + ethernetAdapter1.equals(ethernetAdapter2)); // перевірка на рівність за змістом
-        System.out.println("ethernetAdapter1 == ethernetAdapter2 буде " + (ethernetAdapter1 == ethernetAdapter2)); // перевірка на рівність за посиланням
-        System.out.println("ethernetAdapter1.hashCode() = " + ethernetAdapter1.hashCode()); // у рівних об'єктів рівні хеш-коди
+        System.out.println("ethernetAdapter1.equals(ethernetAdapter2) буде " + ethernetAdapter1.equals(ethernetAdapter2));
+        System.out.println("ethernetAdapter1 == ethernetAdapter2 буде " + (ethernetAdapter1 == ethernetAdapter2));
+        System.out.println("ethernetAdapter1.hashCode() = " + ethernetAdapter1.hashCode());
         System.out.println("ethernetAdapter2.hashCode() = " + ethernetAdapter2.hashCode());
 
     }
