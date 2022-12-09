@@ -49,7 +49,7 @@ public class Device {
     }
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true; 
+        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Device device = (Device) o;
         return Float.compare(device.price, price) == 0 && Objects.equals(manufacturer, device.manufacturer) && Objects.equals(serialNumber, device.serialNumber);
